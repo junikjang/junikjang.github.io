@@ -1,44 +1,58 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Wayback Privacy Policy</title><style>body{font-family:-apple-system,'Segoe UI','Noto Sans KR',sans-serif;max-width:760px;margin:0 auto;padding:24px 16px;line-height:1.7;color:#1d1f1b;background:#fff}
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Wayback Privacy Policy</title><style>body{font-family:-apple-system,'Segoe UI','Noto Sans KR','Noto Sans JP',sans-serif;max-width:760px;margin:0 auto;padding:24px 16px;line-height:1.7;color:#1d1f1b;background:#fff}
 table{border-collapse:collapse;width:100%;font-size:.95em}th,td{border:1px solid #ccc;padding:6px 8px;text-align:left;vertical-align:top}
 h1{font-size:1.6em}h2{font-size:1.2em;margin-top:1.8em}a{color:#b0257a}nav{font-size:.9em;margin-bottom:1em}</style></head><body><nav><a href="wayback-privacy-ko.html">한국어</a> · <a href="wayback-privacy-ja.html">日本語</a></nav><h1>Wayback Privacy Policy</h1>
-<p>Effective date: October 3, 2026 (version 1.1: photos added)</p>
-<p>Junik Jang ("the developer") publishes the Android app "Wayback" (Korean name: 돌아가는 길, package com.junik.wayback, "the app"). This policy explains what information the app handles.</p>
+<p>Effective date: November 1, 2026 (previous version: October 2, 2026)</p>
+<p>Junik Jang ("the developer") respects the privacy of people who use the Android app "Wayback" (com.junik.wayback, "the app").</p>
 <h2>1. Information the app handles itself</h2>
-<p>The app has no sign-up or login, and the developer runs no servers for it.</p>
+<p>The app has no sign-up or login, and the developer runs no servers. Everything below is processed and stored only on your device and is never sent to the developer.</p>
 <table>
-<thead><tr><th>Information</th><th>Purpose</th><th>Where it stays</th></tr></thead>
+<thead><tr><th>Item</th><th>Purpose</th><th>Where it is kept</th></tr></thead>
 <tbody>
-<tr><td>Current (precise) location</td><td>Calculating distance and direction to your saved places; sunrise and sunset times</td><td>Processed on your device only; never sent anywhere</td></tr>
-<tr><td>Places you save (name, note, level, coordinates, time saved)</td><td>Guiding you back to them</td><td>Stored on your device only</td></tr>
-<tr><td>Compass (orientation sensor) readings</td><td>Pointing the arrow</td><td>Processed on your device only</td></tr>
-<tr><td>Photos you take (optional)</td><td>Helping you recognize a saved spot</td><td>Stored on your device only; never sent anywhere</td></tr>
+<tr><td>Current location (precise)</td><td>Distance and direction to saved places, sunrise/sunset times, working out where the car is for the auto parking record</td><td>Processed on the device only</td></tr>
+<tr><td>Places you save (name, note, coordinates, level, time)</td><td>Guiding you back</td><td>Stored on the device only</td></tr>
+<tr><td>Photos you take (optional)</td><td>Helping you recognise a saved place</td><td>Stored on the device only</td></tr>
+<tr><td>Motion sensors (accelerometer, rotation, orientation)</td><td>Compass direction; estimating steps and walking direction for the auto parking record</td><td>Processed on the device only</td></tr>
+<tr><td>Pressure sensor</td><td>Estimating the level and telling you how many floors up or down a place is</td><td>Processed on the device only; saved with the place on the device</td></tr>
+<tr><td>Bluetooth device name and type, connect/disconnect time</td><td>Auto parking record: noticing when your car’s Bluetooth disconnects (when you get out)</td><td>Processed on the device only; the list of detected cars is stored on the device</td></tr>
 </tbody>
 </table>
-<p>The developer cannot collect or view any of this information. Coordinates leave your device only when you tap "Share location" and choose where to send them.</p>
-<h2>2. Advertising (Google AdMob)</h2>
-<p>The app is free and shows one Google AdMob banner ad at the top of the screen. To serve ads, Google may automatically collect:</p>
+<p>Coordinates leave your device only when you tap “Share location” and pick who to send them to.</p>
+<h2>2. Auto parking record (only if you turn it on)</h2>
+<ul>
+<li>This feature is off by default and works only after you turn it on in Settings.</li>
+<li>When your car’s Bluetooth disconnects, the app records steps, direction and air pressure for up to 20 minutes and shows a notification while it does.</li>
+<li>If you open the app during that time, the app keeps receiving your location for up to 20 minutes even after you close it, to work out where the car is (a foreground service and notification are shown). If you don’t open the app, location is not used.</li>
+<li>Everything stays on the device. Automatically saved car spots you haven’t confirmed are cleared when you connect to the car again (that is, when you leave).</li>
+</ul>
+<h2>3. Advertising (Google AdMob)</h2>
+<p>The app is free and shows one Google AdMob banner at the top of the screen. To serve ads, Google may automatically collect:</p>
 <ul>
 <li>Device identifiers such as the advertising ID</li>
-<li>Approximate location derived from your IP address</li>
-<li>Device and app information, ad impressions and clicks, and diagnostics</li>
+<li>Approximate location derived from the IP address</li>
+<li>Device and app information, ad impressions and clicks, diagnostics</li>
 </ul>
-<p>Google processes this information under its own policies:</p>
+<p>This information is handled under Google’s privacy policy.</p>
 <ul>
 <li>Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
-<li>How Google uses information from apps that use its services: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></li>
+<li>How Google uses information from partner apps: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></li>
 </ul>
-<p>To limit personalized ads, delete or reset your advertising ID in your phone's Settings &gt; Google &gt; Ads.</p>
-<h2>3. Permissions</h2>
+<p>To opt out of personalised ads, delete or reset your advertising ID in Settings &gt; Google &gt; Ads.</p>
+<h2>4. Permissions</h2>
 <ul>
-<li><strong>Location (precise/approximate):</strong> Used only while the app is open, to find where you are and guide you to saved places. The app never uses location in the background. If you deny it, you can still enter coordinates manually.</li>
-<li><strong>Internet:</strong> Used to load ads.</li>
-<li><strong>Camera:</strong> The app does not request camera permission. When you add a photo, your phone's camera app opens and only the photo you take is passed to the app.</li>
+<li><strong>Location (precise/approximate):</strong> used to find where you are and guide you back. The app uses “While using the app” access only and never asks for “Allow all the time” (background location). You can still use the app by typing coordinates if you deny it.</li>
+<li><strong>Nearby devices (Bluetooth connect):</strong> requested only when you turn on the auto parking record, and used only to notice your car’s Bluetooth connecting and disconnecting.</li>
+<li><strong>Notifications:</strong> requested only when you turn on the auto parking record, to show that recording is in progress.</li>
+<li><strong>Camera:</strong> the app does not request camera permission. Adding a photo opens your phone’s camera app, and only the photo you take is passed to the app.</li>
+<li><strong>Internet:</strong> used to load ads.</li>
 </ul>
-<h2>4. Retention and deletion</h2>
-<p>Saved places and photos are removed from your device when you delete them in the app or uninstall the app. The developer keeps no copy.</p>
-<h2>5. Children</h2>
-<p>The app is not directed at children under 13 (or under 14 in Korea), and the developer does not knowingly collect children's personal information.</p>
-<h2>6. Changes</h2>
-<p>If this policy changes, the updated version and its effective date will be posted on this page.</p>
-<h2>7. Contact</h2>
-<p>Junik Jang — junik2020@gmail.com</p></body></html>
+<h2>5. Retention and deletion</h2>
+<p>Saved places, photos and parking records are removed from the device when you delete them in the app or uninstall the app. They are excluded from device (cloud) backups. The developer keeps no copy.</p>
+<h2>6. Children</h2>
+<p>The app is not directed at children under 13 and does not knowingly collect children’s personal information.</p>
+<h2>7. Changes</h2>
+<p>If this policy changes, the new version and its effective date will be posted on this page. Changes on November 1, 2026: added the auto parking record (Bluetooth, pressure and motion sensors, location for up to 20 minutes after you open the app, notifications) and photos.</p>
+<h2>8. Contact</h2>
+<ul>
+<li>Junik Jang</li>
+<li>Email: junik2020@gmail.com</li>
+</ul></body></html>
